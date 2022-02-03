@@ -1,5 +1,4 @@
 body {
-  background-color: black;
   margin: 0px;
 }
 #a .navbar {
@@ -20,38 +19,64 @@ body {
   justify-content: baseline;
 }
 #a .home:hover {
-  color: red;
+  background-color: #92a8d1;
+  margin-top: 20px;
+  color: black;
+  border-radius: 50%;
 }
 #a .home {
-  padding-left: 7%;
-  padding-right: 7%;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 #a {
-  background-image: url('/img/WhatsApp\ Image\ 2022-01-27\ at\ 10.01.15\ PM.jpeg');
+  background-image: url('/img/WhatsApp\ Image\ 2022-02-03\ at\ 8.28.23\ PM.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: seashell;
   font-family: 'Roboto Slab', serif;
-  height: 680px;
-}
-#a h2 {
-  padding-top: 100px;
-  font-size: 30px;
-}
-#a p h1,
-h2,
-h3 {
-  padding-left: 150px;
+  height: 700px;
 }
 
 #a h1 {
-  color: red;
-  font-size: 50px;
+  float: left;
+  padding-top: 100px;
+  font-size: 30px;
+}
+#a h1 {
+  float: left;
+  color: whitesmoke;
+  font-size: 45px;
   padding-left: 150px;
 }
 #a h3 {
-  text-align: justify;
-  font-size: 25px;
-  padding-bottom: 300px;
+  float: left;
+  color: whitesmoke;
+  padding-left: 150px;
+}
+#a .aa img {
+  float: right;
+  height: 400px;
+  width: 400px;
+  border-radius: 100px;
+  margin-right: 300px;
+  margin-bottom: 1100px;
+  flex-wrap: wrap;
+}
+#a #hire img {
+  float: right;
+}
+#a #hire img:hover {
+  border-color: #92a8d1;
+}
+#a .download {
+  background-color: transparent;
+  border-color: #92a8d1;
+  float: left;
+  padding: 15px;
+  margin-left: 150px;
+  border-radius: 25px;
+}
+#a .download:hover {
+  background-color: #92a8d1;
 }
